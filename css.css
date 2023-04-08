@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #25283D;
+}
+h1 {
+    font-size: 40px;
+    color: #235789;
+}
+#content {
+    padding: 5px 0 5px 0;
+    background-color: #E5E3F2;
+    max-width: 90vw;
+    min-height: 80vh;
+    margin: auto;
+    text-align: center;
+    border: 5px white;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #453F78;
+    color: lightyellow;
+    margin: 1px 1px 15px 1px;
+    width: 160px;
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #401F3E;
+    color: white;
+}
+
+img {
+    max-width: 90vw;
+    max-height: 100vh;
+    margin: 10px 5px 5px 5px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+#input-breed {
+    margin: 0 5px 0 25px;
+    height: 40px;
+    width: 260px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+ol, ul {
+    list-style-position: inside;
+    text-align: justify-all;
+}
